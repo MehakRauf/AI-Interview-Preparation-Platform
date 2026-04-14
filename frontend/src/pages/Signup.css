@@ -1,0 +1,138 @@
+/* Background */
+.signup-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4a90e2, #6a5acd);
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.signup-card {
+    width: 350px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.signup-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.signup-label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+    color: #444;
+}
+
+/* Inputs */
+.signup-input {
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+
+.signup-input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.email-input {
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.2s;
+    border: 1px solid #ddd;
+}
+
+/* Password field wrapper */
+.password-wrapper {
+    position: relative;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+/* Password toggle icon */
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Error box */
+.error-box {
+    margin-top: 10px;
+}
+
+.error-text {
+    color: red;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* Button */
+.signup-button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.signup-button:hover {
+    background: #357bd8;
+}
+
+.auth-text {
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  margin-top: 15px;
+}
+
+.auth-text a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.auth-text a:hover {
+  text-decoration: underline;
+  color: #357bd8;
+}
+
+
+/* Responsive */
+@media (max-width: 400px) {
+    .signup-card {
+        width: 90%;
+    }
+}
